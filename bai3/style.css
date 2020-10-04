@@ -1,0 +1,198 @@
+*{
+	margin:0;
+	padding:0;
+	border:none;
+}
+.main{
+	width: 100%;
+	height: 800px;
+	background-image: url(pic1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.main h1{
+	text-align: center;
+	padding-top: 100px;
+	font-family: 'Architects Daughter', cursive;
+	color: #001935;
+}
+.main1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#icon{
+	margin-top: 40px;
+	width: 150px;
+	height: 150px;
+	background-color: grey;
+}
+.block1{
+	position: relative;
+	overflow: hidden;
+}
+/*khoi thu nhat*/
+.block1 img{
+	width: 150px;
+	height: 150px;
+}
+.block1 h2{
+	font-family: 'Architects Daughter', cursive;
+	text-align: center;
+	display: block;
+	color: #FFFFFF;
+	background-color: #00CF35;
+	width: 150px;
+	height: 70px;
+	position: absolute;
+}
+.block1:hover h2{
+	margin-top: -40px;
+	transition: 0.75s;
+}
+.block2{
+	position: relative;
+	overflow: hidden;
+}
+.block-icon{
+	width: 150px;
+	height: 150px;
+	background-color: #001935;
+	overflow: hidden;
+}
+.block-icon p{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 40px;
+	padding-top: 60px;
+}
+.block-one{
+	width: 200px;
+	height: 30px;
+	background-color:#00CF35;
+	position: absolute;
+	transform: rotate(140deg);
+	top: 0px;
+	left: -100px;
+}
+.block-icon:hover{
+	margin-top: -10px;
+	box-shadow: 5px 5px 5px;
+	transition: 0.5s;
+}
+.block-icon:hover p{
+	color: red;
+	transition: 0.5s;
+}
+/*khoi thu hai*/
+.block3{
+	position: relative;
+}
+.block-icon1{
+	width: 150px;
+	height: 150px;
+	background-color: #001935;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block-icon1 i{
+	color: #FFFFFF;
+	font-size: 40px;
+}
+.block-icon1:hover{
+	position: absolute;
+	margin-left: 30px;
+	transition:0.75s;
+}
+.block-icon1:hover i{
+	color: #FF8A00;
+	transition: 0.75;
+}
+/*khoi thu ba*/
+.block4{
+	position: relative;
+}
+.block-icon2{
+	width: 150px;
+	height: 150px;
+	background-color: #001935;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+}
+.block-icon2 i{
+	color: #FFFFFF;
+	font-size: 40px;
+}
+.block-icon2:hover{
+	margin-top: -20px;
+	box-shadow: 5px 5px 5px;
+	margin-left: 20px;
+	transition: 0.5s;
+}
+/*khoi thu tu*/
+.block5{
+	width: 150px;
+	height: 150px;
+	margin-top: 40px;
+	position: relative;
+	background-color: #529FCD;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.block5 i{
+	color: #F1992F;
+	font-size: 40px;
+}
+.block-icon3{
+	width: 150px;
+	height: 150px;
+	background-color: #00CF35;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 1;
+}
+.block-icon3 i{
+	color: #FFFFFF;
+}
+.block-icon3:hover{
+	margin-top: -20px;
+	margin-left: 20px;
+	opacity: 0;
+	transition: 0.75s;
+}
+/*khoi thu 5*/
+.block6{
+	width: 150px;
+	height: 175px;
+	background-color: #FFFFFF;
+	margin-top: 40px;
+	overflow: hidden;
+	position: relative;
+}
+.block6 img{
+	width: 150px;
+	height: 175px;
+}
+.block6:hover img{
+	transform: scale(1.75);
+	transition: 0.5s;
+}
+.layer{
+	width: 150px;
+	height: 175px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0.3;
+	background-color: grey;
+	background-image: -webkit-linear-gradient(left,red 20%,orange 20%, blue 20%, green 20%,violet 70%);
+}

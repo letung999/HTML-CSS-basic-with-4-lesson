@@ -1,0 +1,40 @@
+*{
+	margin:0;
+	padding:0;
+	border:none;
+}
+.main{
+	width: 1200px;
+	height: 800px;
+	margin: auto;
+	background-image: url('pic1.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	padding-top: 200px;
+	/*overflow: hidden;*/
+	animation:zoom 4s forwards;
+}
+.main h1{
+	color: #001935;
+	font-family: 'Architects Daughter', cursive;
+	margin-left: -1900px;
+	animation:play 4s forwards; /*ten hieu ung thoi gian chay huong chay*/
+	animation-delay: 4s;
+}
+@-webkit-keyframes zoom{
+	from{
+		transform: scale(1);
+	}
+	to{
+		transform: scale(1.15);
+	}
+}
+@-webkit-keyframes play{
+	from{
+		margin-left: -1900px;
+	}
+	to{
+		margin-left: 0px;
+	}
+}

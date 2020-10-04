@@ -1,0 +1,84 @@
+*{
+	margin:0;
+	padding:0;
+	border:none;
+}
+.main{
+	width: 1300px;
+	height: 800px;
+	background-image: url(../picture/pic2.jpg);
+	background-size:cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+.block{
+	width: 660px;
+	height: 300px;
+	background-color:#80808094;
+	text-align: center;
+}
+.block h1{
+	color:#FF8A00;
+	font-family: 'Architects Daughter', cursive;
+	opacity: 0;
+	animation: playline 4s forwards;
+}
+.search{
+	width: 500px;
+	height: 60px;
+	background-color: white;
+	margin-top: 20px;
+	margin-left: 80px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.block-search{
+	width: 49px;
+	height: 60px;
+	background-color: #001935;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.block-search i{
+	color: #FFFFFF;
+}
+.block1{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+}
+.block-icon{
+	display: flex;
+	justify-content: flex-end;
+}
+.block-icon i{
+	color: #FFFFFF;
+	font-size: 40px;
+}
+.block-icon p{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+/*hover cho tung khoi*/
+.block-icon:hover i{
+	color: #FF8A00;
+	transition: 0.5s;
+	margin-top: -5px;
+}
+.block-icon:hover p{
+	color: #00CF35;
+	transition: 0.5s;
+}
+/*cac tao animation*/
+@-webkit-keyframes playline{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}

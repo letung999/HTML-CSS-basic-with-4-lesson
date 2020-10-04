@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding:0;
+	border:none;
+}
+.main{
+	width: 1020px;
+	height: auto;
+	background-color: #ffffff;
+}
+.block{
+	margin-left: 30px;
+	margin-top: 30px;
+	width: 100%;
+	height:150px;
+	display: flex;
+	flex-direction: row;
+}
+.block img{
+	width: 150px;
+	height: 150px;
+}
+.line{
+	margin-top:  20px;
+	margin-left: 30px;
+	color: #ffffff;
+	background-color: red;
+	display:inline-block;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 24px;
+}
+.img{
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	margin-right: 20px;
+}
+.block p:hover{
+	text-decoration: underline;
+	color: red;
+	transition: 0.5s;
+}
+.img:hover{
+	margin-top: -10px;
+	box-shadow: 5px 5px 5px;
+	transition: 0.5s;
+}
+.img1{
+	margin-top: 50px;
+	margin-left: 30px;
+	width: 210px;
+	height: 210px;
+	float: left;
+}
+.img1 img{
+	width: 200px;
+	height: 200px;
+}
+.img1 a{
+	text-decoration: none;
+	color: red;
+}
+.main2{
+	width: 800px;
+	height: 400px;
+	border-bottom: 2px solid red
+}
+.main3{
+	margin-top: 40px;
+	width: 550px;
+	height: 200px;
+	background-color: #FFFFFF;
+	border-bottom : 2px solid red;
+	position: relative;
+}
+ul i{
+	font-size: 40px;
+	padding-left: 20px;
+}
+.facebook{
+	width: 150px;
+	height: 150px;
+	background-color: #0676E8;
+	margin-left: 30px;
+	margin-right: 20px;
+	margin-top: -5px;
+	float: left;
+}
+.google{
+	width: 150px;
+	height: 150px;
+	background-color: #D64E42;
+	margin-right: 20px;
+	margin-top: -5px;
+	float: left;
+}
+.twitter{
+	width: 150px;
+	height: 150px;
+	background-color: #1DA1F2;
+	margin-top: -5px;
+	float: left;
+}
+.main3 i{
+	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
+	color: white;
+}
+.main3 p{
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	
+}
+.facebook:hover{
+	margin-top: -15px;
+	box-shadow: 5px 5px 5px;
+	transition:0.5s;
+}
+.facebook:hover i {
+	color: #00CF35;
+}
+.facebook:hover p {
+	color: #00CF35;
+}
+.google:hover{
+	margin-top: -15px;
+	box-shadow: 5px 5px 5px;
+	transition:0.5s;
+}
+.google:hover i{
+	color: #FF8A00;
+}
+.google:hover p{
+	color: #FF8A00;
+}
+.twitter:hover{
+	margin-top: -15px;
+	box-shadow: 5px 5px 5px;
+	transition:0.5s;
+}
+.twitter:hover i{
+	color:#001935;
+}
+.twitter:hover p{
+	color:#001935;
+}
+.title{
+	width: 200px;
+	height: 20px;
+	margin-top: 20px;
+	margin bottom:20px;
+
+
+}
+.title h3{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 30px;
+	display: inline-block;
+	position: absolute;
+	background-color: #FFFFFF;
+	margin-top: -55px;
+	margin-left: 200px;
+}
+.main4{
+	width: 1300px;
+	height: auto;
+	margin-left: 30px;
+	display: flex;
+	flex-direction: row;
+	/*flex-direction: row-reverse;sap xep theo hang nhung nguoc lai
+	flex-direction: column-reverse;/*sap xep theo cot nhung nguoi thu tu*/
+	/*justify-content: space-around;*/
+	/*flex-flow: wrap;neu thua no tu dong xuong dong*/
+	background-color: #001935;
+}
+.NodeLine{
+	font-family: 'Architects Daughter', cursive;
+	color: #FFFFFF;
+}
